@@ -1,7 +1,7 @@
 # GoogleDriveAddPermission
 Sample source for GoogleDrive access rights batch grant script.
 
-# Setup Procedure for Development Environment
+# 1.Setup Procedure for Development Environment
 ## (1) Install Node.js
 [Node.js website](https://nodejs.org/en)
 
@@ -19,7 +19,7 @@ npm install -g npm@latest
 clasp login
 ```
 
-# The following settings are required before execution
+# 2.The following settings are required before execution
 ## (1) Enable Google Drive API in GCP
 ## (2) Create authentication credentials in GCP (API Key, OAuth 2.0 Client ID, Service Account)
 ## (3) Modify the values in the Source Code
@@ -32,7 +32,7 @@ YOUR_PRIVATE_KEY<br>
 YOUR_CLIENT_EMAIL<br>
 YOUR_API_KEY<br>
 
-# Deployment Method
+# 3.Deployment Method
 ## Verify the settings in .clasp.json and adjust the [rootDir] setting to match the local path where the source code is located.
 
 ## Execute the following command
