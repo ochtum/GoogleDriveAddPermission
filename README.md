@@ -1,5 +1,5 @@
 # GoogleDriveAddPermission
-Batch grant of GoogleDrive access rights script.
+Sample source for GoogleDrive access rights batch grant script.
 
 # Setup Procedure for Development Environment
 ## (1) Install Node.js
