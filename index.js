@@ -42,7 +42,7 @@ function main() {
       'payload':JSON.stringify(newPermission)
     };
 
-    // REST API URL
+    // REST API URL(Google Drive API v3)
     var url = 'https://www.googleapis.com/drive/v3/files/' + folderId + '/permissions?sendNotificationEmail=true&supportsAllDrives=true&key=' + API_KEY;
     try {
 
