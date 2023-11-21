@@ -23,14 +23,14 @@ clasp login
 ## (1) Enable Google Drive API in GCP
 ## (2) Create authentication credentials in GCP (API Key, OAuth 2.0 Client ID, Service Account)
 ## (3) Modify the values in the Source Code
-- .clasp.json
-YOUR_SCRIPT_ID
-YOUR_ROOT_DIRECTORY
-- index.js
-example@example.com
-YOUR_PRIVATE_KEY
-YOUR_CLIENT_EMAIL
-YOUR_API_KEY
+- .clasp.json<br>
+YOUR_SCRIPT_ID<br>
+YOUR_ROOT_DIRECTORY<br>
+- index.js<br>
+example@example.com<br>
+YOUR_PRIVATE_KEY<br>
+YOUR_CLIENT_EMAIL<br>
+YOUR_API_KEY<br>
 
 # Deployment Method
 ## Verify the settings in .clasp.json and adjust the [rootDir] setting to match the local path where the source code is located.
